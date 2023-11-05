@@ -1,0 +1,11 @@
+.form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .form-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
